@@ -1,0 +1,72 @@
+/*  Header  */
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+/* Car animation */
+.race-car-icon {
+  height: 4rem;
+  animation: drivingCar 3s infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+@keyframes drivingCar {
+  from {
+    left: -10px;
+  }
+  to {
+    left: 90%;
+  }
+}
+
+/*  Navigation bar, shared  */
+.navbar {
+  background: linear-gradient(
+    to bottom,
+    rgb(224, 7, 0) 50%,
+    rgb(255, 112, 112) 80%,
+    rgb(255, 255, 255) 100%
+  );
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 1rem;
+}
+li {
+  margin-right: 1rem;
+}
+.nav-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+/*  Main  */
+/* index */
+.index-headline {
+  font-size: 4rem;
+  font-family: Impact;
+  letter-spacing: 1rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .index-headline {
+    font-size: 3rem;
+  }
+}
+
+.driver-img {
+  height: 180px;
+}
+
+.api-url {
+  margin-left: 1rem;
+}
+
+/* docs */
+.docs-headline {
+  font-size: 2.5rem;
+}

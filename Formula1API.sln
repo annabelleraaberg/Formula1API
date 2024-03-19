@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formula1API", "Formula1API.csproj", "{7A1A3648-83EC-47B6-B0E9-4902D8808C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1A3648-83EC-47B6-B0E9-4902D8808C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1A3648-83EC-47B6-B0E9-4902D8808C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1A3648-83EC-47B6-B0E9-4902D8808C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1A3648-83EC-47B6-B0E9-4902D8808C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5522F93-2CCC-41CB-86FB-089CCA932447}
+	EndGlobalSection
+EndGlobal

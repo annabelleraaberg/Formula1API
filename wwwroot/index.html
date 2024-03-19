@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula 1 - API</title>
+    <link rel="icon" type="image/png" href="images/car-icon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="scripts/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header class="index-header">
+      <nav class="navbar sticky-top navbar-light">
+        <ul>
+          <li>
+            <a class="nav-a" href="#">Home</a>
+          </li>
+          <li>
+            <a class="nav-a" href="docs.html">How to use endpoints</a>
+          </li>
+          <li>
+            <a class="nav-a" href="favorites.html">Favorites</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img
+        class="race-car-icon"
+        src="./images/racecar-icon.png"
+        alt="Race car, png"
+      />
+    </header>
+
+    <!--  Main section  -->
+    <main class="container">
+      <h1 class="text-center index-headline">FORMULA 1 API</h1>
+      <section class="row">
+        <!--  Information about the API  -->
+        <article>
+          <p>
+            This Web API gets information about Formula 1 drivers. To learn more
+            about how to use the endpoints, go to "How to use endpoints" in the
+            navigation bar.
+          </p>
+        </article>
+      </section>
+
+      <!--  Show drivers in API  -->
+      <section class="row">
+        <article class="col text-center">
+          <button class="btn btn-danger rounded-pill" id="get-all-drivers-btn">
+            Get all drivers
+          </button>
+        </article>
+      </section>
+
+      <!--  Output section  -->
+      <section class="row" id="output-section"></section>
+    </main>
+
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
