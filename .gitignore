@@ -8,6 +8,8 @@ obj/
 *.userosscache
 *.sln.docstates
 
+.DS_Store
+
 # Windows Installer files
 *.cab
 *.msi
