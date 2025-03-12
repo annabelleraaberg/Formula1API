@@ -1,0 +1,34 @@
+# .NET Core build directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover (JetBrains)
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# Local History for VS Code
+.history/
+
+# .NET Core package restore directory
+.vs/
+
+# JetBrains Rider's solution-specific files
+.idea/
+
