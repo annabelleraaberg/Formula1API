@@ -21,7 +21,7 @@ Setup for running backend and frontend at the same time
 **Note**: press O to open in browser.
 
 ## Features
-1. ### Driver Management: 
+### 1. Driver Management: 
 * **Get All Drivers**: Retrieves a list of all Formula 1 drivers stored in the database.
 * **Get Driver by ID**: Retrieves detailed information for a specific driver based on their unique ID.
 * **Get Driver by Name**: Allows for searching and retrieving a driver based on their name.
@@ -29,13 +29,13 @@ Setup for running backend and frontend at the same time
 * **Edit Driver**: Modify existing driver details.
 * **Delete Driver**: Remove a driver from the database based on their ID.
 
-2. ### Image Upload
+### 2. Image Upload
 * **Upload Image**: Allows uploading images associated with drivers (image of driver). 
 
-3. ### Database Integration
+### 3. Database Integration
 * **Entity Framework Core**: Uses EF Core for database context and migrations, enabling data interaction for CRUD operations.
 
-4. ### API Structure
+### 4. API Structure
 * All API endpoints follow RESTful conventions, including HTTP status codes for responses.
 * The API uses Controller-based routing to manage request to the backend.
 
